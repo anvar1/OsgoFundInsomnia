@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1559cc35c45
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607170518436
+created: 1607166371630
+url: "{{ base_url }}/api/provider/driver-license"
+name: Get driver licence information by driver's PINFL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "string",
+      "passportSeries": "string",
+      "passportNumber": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_809b36daa4a548f9b3889b32ea30fa33
+  - name: Content-Type
+    value: application/json
+    id: pair_51e6c0596077408491b1f599e61eb319
+authentication: {}
+metaSortKey: -1607166371712.039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

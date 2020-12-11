@@ -1,0 +1,33 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1550c65e852
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607169489032
+created: 1607166371697
+url: "{{ base_url }}/api/provider/inn"
+name: Get information about organization by INN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "inn": "305053634"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_5eca3281aab740d0a25cbb1eb52c2945
+  - name: Content-Type
+    value: application/json
+    id: pair_b6ed70841971499e93418fb15527c933
+authentication: {}
+metaSortKey: -1607166371697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1556fed4e66
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169214219
+created: 1607166371775
+url: "{{ base_url }}/api/claim/other-property-payment/update"
+name: Ходатайство. Добавление изменение по имуществу.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "78uz3f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "paymentAmount": "100000",
+      "paymentOrderNumber": "jkj54353242342",
+      "paymentDate": "2018-05-05",
+      "protocolNumber": "kj342342342",
+      "protocolDate": "2019-04-05",
+      "comment": "Какой-то комментарий"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724073.7988
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

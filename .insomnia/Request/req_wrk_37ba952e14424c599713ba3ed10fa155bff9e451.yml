@@ -1,0 +1,62 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155bff9e451
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168956301
+created: 1607166372264
+url: "{{ base_url }}/api/claim/vehicle/update"
+name: Ходатайство. Изменение информации о транспортном средстве под управлением
+  виновного лица
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "vehicleOwner": {
+        "person": {
+          "passportData": {
+            "pinfl": "12345678901234",
+            "seria": "AA",
+            "number": "1234567"
+          },
+          "fullName": {
+            "firstname": "Иван",
+            "lastname": "Иванов",
+            "middlename": "Иванович"
+          },
+          "gender": "m",
+          "birthDate": "1990-10-10"
+        },
+        "organization": {
+          "inn": "123456789",
+          "name": "ООО Бизнес",
+          "regCertificate": "kj323l4234234234",
+          "regCertificateIssueDate": "2015-11-07",
+          "representativeName": "Иванов Иван Ивванович"
+        },
+        "regionId": 1,
+        "districtId": 1,
+        "address": "Улица такая-то, дом такой-то",
+        "phoneNumber": "998901234567"
+      },
+      "claimUuid": "b5e814ca-9s83-4ef4-9437-a0379b84b181",
+      "transportTypeId": 1,
+      "modelCustomName": "Nexia",
+      "vehicleStateNumber": "01T521FD",
+      "regCertificateSeries": "sdf35345",
+      "regCertificateNumber": "kj3543432",
+      "regCertificateDate": "2018-08-04"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724078.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

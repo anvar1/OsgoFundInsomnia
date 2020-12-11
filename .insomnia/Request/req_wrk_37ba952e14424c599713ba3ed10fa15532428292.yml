@@ -1,0 +1,31 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15532428292
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169210228
+created: 1607166371809
+url: "{{ base_url }}/api/claim/health-payment/delete"
+name: Ходатайство. Удаление выплаты по здоровью
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "78bz3f03-dd9f-4439-b5e1-3dfda33bc5f8"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724073.8477
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

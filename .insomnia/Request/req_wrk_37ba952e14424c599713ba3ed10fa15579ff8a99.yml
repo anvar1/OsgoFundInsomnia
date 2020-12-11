@@ -1,0 +1,36 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15579ff8a99
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169205335
+created: 1607166371826
+url: "{{ base_url }}/api/claim/health-payment/update"
+name: Ходатайство. Изменение выплаты по здоровью
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "c6762581-f18e-44a8-94ed-8f8ccabb2f5b",
+      "paymentAmount": "100000.50",
+      "paymentDate": "2018-05-05",
+      "paymentPercent": "10.5",
+      "paymentOrderNumber": "j2kl3423",
+      "recipient": "Иванов Иван Иванович"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724073.9941
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

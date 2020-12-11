@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155793e7a79
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607169631482
+created: 1607166371663
+url: "{{ base_url }}/api/provider/pinfl-non-citizen"
+name: Get information about non citizen person by his PINFL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "string",
+      "passportSeries": "string",
+      "passportNumber": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_5a40f633d0a142f5830d4e97e29349cc
+  - name: Content-Type
+    value: application/json
+    id: pair_12f74e04c1994106b5c85ca911db6301
+authentication: {}
+metaSortKey: -1607166371706.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

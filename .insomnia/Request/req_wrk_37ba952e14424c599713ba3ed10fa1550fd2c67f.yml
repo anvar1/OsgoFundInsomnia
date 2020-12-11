@@ -1,0 +1,25 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1550fd2c67f
+type: Request
+parentId: fld_22512e7cd9884892b9430acf7b2297a2
+modified: 1607169315033
+created: 1607166371261
+url: "{{ base_url }}/api/references/payment-reasons"
+name: Get list of payment reasons (Справочник №18)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_8e03fe32abc44fb79ff5594bac27db83
+authentication: {}
+metaSortKey: -1607166371558.9346
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

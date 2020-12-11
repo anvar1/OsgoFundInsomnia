@@ -1,0 +1,41 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15508a000ca
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168962767
+created: 1607166372247
+url: "{{ base_url }}/api/claim/circumstances"
+name: Ходатайство. Добавление информации об обстоятельствах события.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "claimUuid": "b5e814ca-9883-4et9-9437-a0379b84b181",
+      "eventDateTime": "2018-05-07 10:10:10",
+      "regionId": 1,
+      "districtId": 1,
+      "eventPlace": "улица Нукусская, перекресток такой-то",
+      "compensationInStock": true,
+      "courtId": 1,
+      "courtRegionId": 1,
+      "courtDistrictId": 1,
+      "compensationDateResolved": "2019-08-04",
+      "compensationComment": "Тут сведения о ДТП"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724077.2656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

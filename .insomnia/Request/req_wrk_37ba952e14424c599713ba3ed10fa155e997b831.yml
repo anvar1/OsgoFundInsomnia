@@ -1,0 +1,31 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155e997b831
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168957946
+created: 1607166372061
+url: "{{ base_url }}/api/claim/health-damage/delete"
+name: Удаление записи информации о вреде здоровью
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "a78c396f-7c92-49f4-9b98-075377e0ba8a"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724077.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

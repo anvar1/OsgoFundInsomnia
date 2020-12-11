@@ -1,0 +1,68 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15598f78ad1
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168949100
+created: 1607166372295
+url: "{{ base_url }}/api/claim/accident-causer/update"
+name: Ходатайство. Изменение сведений о лице, ответственном за причиненный вред
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "accidentCauser": {
+        "person": {
+          "passportData": {
+            "pinfl": "12345678901234",
+            "seria": "AA",
+            "number": "1234567"
+          },
+          "fullName": {
+            "firstname": "Иван",
+            "lastname": "Иванов",
+            "middlename": "Иванович"
+          },
+          "gender": "m",
+          "birthDate": "1985-07-21"
+        },
+        "organization": {
+          "inn": "123456789",
+          "name": "ООО Организация",
+          "regCertificate": "kj3l4234234",
+          "regCertificateIssueDate": "2014-04-08",
+          "representativeName": "Иванов Иван Иванович"
+        },
+        "regionId": 1,
+        "districtId": 1,
+        "address": "Улица такая-то, дом такйо-то",
+        "phoneNumber": "998904567891",
+        "residentOfUzb": 1,
+        "citizenshipId": 1
+      },
+      "claimUuid": "b5e814ca-9s83-4ef4-9437-a0379b84b181",
+      "known": true,
+      "declared": true,
+      "roadSecurityStateAgencyId": 1,
+      "roadSecurityStateAgencyRegionId": 1,
+      "roadSecurityStateAgencyDistrictId": 1,
+      "conclusionDocDate": "2018-04-05",
+      "conclusionNumber": "dfs423423423",
+      "reason": "Причина указывается тут"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724080.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

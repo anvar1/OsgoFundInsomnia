@@ -1,0 +1,24 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15575628880
+type: Request
+parentId: fld_22512e7cd9884892b9430acf7b2297a2
+modified: 1607169316935
+created: 1607166371271
+url: "{{ base_url }}/api/references/decisions"
+name: Get list of all decisions (Справочник №17)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1607166371558.9353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

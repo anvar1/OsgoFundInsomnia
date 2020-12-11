@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1556db3ad39
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607169759830
+created: 1607166371613
+url: "{{ base_url }}/api/provider/vehicle"
+name: Get vehicle information by TechPassport Data and GovNumber
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "techPassportSeria": "AAC",
+      "techPassportNumber": "6163326",
+      "govNumber": "01097VDA"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_67b9dc9247024ffc8c4b8df1ff3160bc
+  - name: Content-Type
+    value: application/json
+    id: pair_0bf8f91a16f24478aa1b5555c7587f59
+authentication: {}
+metaSortKey: -1607166371715.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

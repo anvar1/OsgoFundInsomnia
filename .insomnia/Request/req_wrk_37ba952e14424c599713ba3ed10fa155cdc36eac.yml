@@ -1,0 +1,33 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155cdc36eac
+type: Request
+parentId: fld_a35b1ebb7ecf4252a4fe8ea6b852273b
+modified: 1607168853985
+created: 1607166372497
+url: "{{ base_url }}/api/insurance-form-show-by-seria-number"
+name: Получение информации о полисе по серии и номеру полиса
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: seria
+    disabled: false
+    value: string
+    id: pair_7194c634360d4eec83f2ce4e46aad256
+  - name: number
+    disabled: false
+    value: string
+    id: pair_5c355fb11fbe4ad090f9b67969f0b8f8
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_0b3bb3b833034b00bbe758a26bd5ba34
+authentication: {}
+metaSortKey: -1607168819958.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

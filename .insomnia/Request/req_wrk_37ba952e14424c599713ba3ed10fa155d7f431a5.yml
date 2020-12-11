@@ -1,0 +1,36 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155d7f431a5
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169204017
+created: 1607166371842
+url: "{{ base_url }}/api/claim/health-payment/create"
+name: Ходатайство. Добавление выплаты по здоровью.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "committeeDecisionUuid": "78bz3f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "paymentAmount": "1000.50",
+      "paymentDate": "2019-05-05",
+      "paymentPercent": "10.50",
+      "paymentOrderNumber": "asd123132",
+      "recipient": "Иванов Иван Иванович"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724074.043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

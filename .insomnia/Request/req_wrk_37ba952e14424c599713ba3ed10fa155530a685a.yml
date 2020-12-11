@@ -1,0 +1,37 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155530a685a
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168973977
+created: 1607166372212
+url: "{{ base_url }}/api/claim/cash-payment"
+name: Ходатайство. Добавление информации о денежных средствах и страховой выплате.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "claimUuid": "b5e814ca-9883-4ef4-9437-a0379b842281",
+      "kaskoPayment": {
+        "insuranceOrgId": 1,
+        "insurancePayContractNumber": "jk3423412",
+        "insurancePayCompensationSumma": 100000.3
+      },
+      "cashToRecSumma": 100000
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724076.8933
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

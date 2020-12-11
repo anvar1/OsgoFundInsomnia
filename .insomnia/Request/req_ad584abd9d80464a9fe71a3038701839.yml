@@ -1,0 +1,28 @@
+_id: req_ad584abd9d80464a9fe71a3038701839
+type: Request
+parentId: fld_338f8ae15d9c4c53be47efc677a59d59
+modified: 1607166758890
+created: 1607166633848
+url: "{{ base_url
+  }}/oauth/v2/token?username=temiryol&password=aIj4T1lD0Khvn0Uv411TT5B055132Lbs\
+  &grant_type=password"
+name: Get Token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: 5_529o76r9bz0ggcgg8wcoc0kococ4wc0so8o8k48k40o00080oc
+  password: 4kmk6cucu2o0kcswg4k8c0s000k4koo0ws0c8w40scs8ggwc80
+metaSortKey: -1607166561214.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

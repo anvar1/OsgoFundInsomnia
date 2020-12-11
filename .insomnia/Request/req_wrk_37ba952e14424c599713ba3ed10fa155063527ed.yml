@@ -1,0 +1,25 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155063527ed
+type: Request
+parentId: fld_22512e7cd9884892b9430acf7b2297a2
+modified: 1607169297066
+created: 1607166371335
+url: "{{ base_url }}/api/references/vehicle-types"
+name: Get list of all vehicle types (Справочник №10)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_a9ae804324ee442295d59bec9bed0dc3
+authentication: {}
+metaSortKey: -1607166371560.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

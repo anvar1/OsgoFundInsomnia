@@ -1,0 +1,29 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15560ffd1de
+type: Request
+parentId: fld_a35b1ebb7ecf4252a4fe8ea6b852273b
+modified: 1607168855597
+created: 1607166372513
+url: "{{ base_url }}/api/insurance-form-show"
+name: Получение информации о полисе по uuid
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: uuid
+    disabled: false
+    value: string
+    id: pair_c06ef55f98e3426dba2b4b94393bc42a
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_3247c208ce454a92b0a120fb8c451d58
+authentication: {}
+metaSortKey: -1607168820008.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

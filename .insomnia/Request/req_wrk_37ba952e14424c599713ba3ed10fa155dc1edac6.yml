@@ -1,0 +1,38 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155dc1edac6
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168976630
+created: 1607166372178
+url: "{{ base_url }}/api/claim/committee-decision"
+name: Ходатайство. Добавление решения комитета.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "claimUuid": "EA989EE2-23CD-4266-9645-6EAA3714461F",
+      "decisionId": 1,
+      "paymentReasonId": 1,
+      "rejectionReason": "Здесь указывается причина отказа",
+      "pay": true,
+      "paymentOrderNumber": "hj89yh8oh89",
+      "paymentOrderDate": "2019-05-09",
+      "sendToRegress": true
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724076.8901
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

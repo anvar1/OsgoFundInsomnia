@@ -1,0 +1,48 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155b40b2668
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169010469
+created: 1607166371928
+url: "{{ base_url }}/api/claim/letter/update"
+name: Ходатайство. Изменение письма.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "35bz3f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "recipient": {
+        "firstName": "Иван",
+        "lastName": "Иванов",
+        "middleName": "Иванович",
+        "organizationName": "ООО Стайл"
+      },
+      "letterTypeId": 1,
+      "letterNumber": "jkh23423421",
+      "letterDate": "2018-08-07",
+      "executionTerm": "2019-07-04",
+      "responseLetter": {
+        "letterNumber": "sl234234",
+        "letterDate": "2018-05-07",
+        "receiptDate": "2018-08-07"
+      }
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_3caab5c5635544aba2c33077d7646e44
+  - name: Content-Type
+    value: application/json
+    id: pair_abfee4803bec4f01bc2eecfa32cb8ea7
+authentication: {}
+metaSortKey: -1607168724076.878
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155689e4754
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168972768
+created: 1607166371961
+url: "{{ base_url }}/api/claim/other-damage/delete"
+name: Удалить запись о вреде иному имуществу
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "a78c396f-7c92-49f4-9b98-075377e0ba8a"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724076.8872
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

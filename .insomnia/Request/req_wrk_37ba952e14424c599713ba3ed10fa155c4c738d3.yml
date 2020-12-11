@@ -1,0 +1,46 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155c4c738d3
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168987953
+created: 1607166371944
+url: "{{ base_url }}/api/claim/letter/create"
+name: Ходатайство. Добавление письма.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "claimUuid": "78bz3f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "letterTypeId": 1,
+      "letterNumber": "dsf324",
+      "letterDate": "2018-07-08",
+      "executionTerm": "2019-07-08",
+      "recipient": {
+        "firstName": "Иван",
+        "lastName": "Иванов",
+        "middleName": "Иванович",
+        "organizationName": "ООО Стайл"
+      },
+      "responseLetter": {
+        "letterNumber": "sl234234",
+        "letterDate": "2018-05-07",
+        "receiptDate": "2018-08-07"
+      }
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724075.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

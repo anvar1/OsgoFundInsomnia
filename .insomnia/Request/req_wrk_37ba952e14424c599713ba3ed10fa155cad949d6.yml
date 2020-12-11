@@ -1,0 +1,24 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155cad949d6
+type: Request
+parentId: fld_22512e7cd9884892b9430acf7b2297a2
+modified: 1607169181437
+created: 1607166371472
+url: "{{ base_url }}/api/references/regions"
+name: Get list of all regions (Справочник №3)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1607166371608.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

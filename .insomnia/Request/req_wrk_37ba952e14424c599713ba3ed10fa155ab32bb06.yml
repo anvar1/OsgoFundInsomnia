@@ -1,0 +1,69 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155ab32bb06
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168917445
+created: 1607166372364
+url: "{{ base_url }}/api/claim/create"
+name: Ходатайство. Создание ходатайства
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "applicant": {
+        "person": {
+          "passportData": {
+            "pinfl": "12345678901234",
+            "seria": "AA",
+            "number": "1234567",
+            "issueDate": "2012-01-01",
+            "issuedBy": "Some IIB"
+          },
+          "fullName": {
+            "firstname": "John",
+            "lastname": "Doe",
+            "middlename": "string"
+          },
+          "gender": "m",
+          "birthDate": "1990-01-01"
+        },
+        "organization": {
+          "inn": "123456789",
+          "name": "Company INC",
+          "regCertificate": "Ab812342134",
+          "regCertificateIssueDate": "2018-05-12",
+          "representativeName": "Paul Murphy"
+        },
+        "citizenshipId": "1",
+        "residentOfUzb": 1,
+        "address": "Адрес заявителя",
+        "phoneNumber": "10010101",
+        "regionId": "1",
+        "districtId": "1"
+      },
+      "insuranceFormUuid": "b5e814ca-9883-4ef4-9437-a0379b84b181",
+      "docConfirmingInheritance": "Сведения о документах, подтверждающих наследство",
+      "claimNumber": "as123456789",
+      "docsConfInheritanceInStock": "true",
+      "docsConfVictimInStock": "true",
+      "docsConfVictim": "Документы, подтверждающие личность потерпевшего или гос регистрацию",
+      "attorneyPowerNumber": "asd12345678",
+      "attorneyPowerIssueDate": "2018-10-10"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724123.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

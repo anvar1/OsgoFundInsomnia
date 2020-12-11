@@ -1,0 +1,33 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155731863c5
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607169952628
+created: 1607166371515
+url: "{{ base_url }}/api/provider/driver-coefficient"
+name: Get driver coefficient by his PINFL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "30504720220036"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_993466a560314531a492751c7fed666f
+  - name: Content-Type
+    value: application/json
+    id: pair_5d8b9eec857043a2bf9db8d9865cdae5
+authentication: {}
+metaSortKey: -1607166371711.4531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155f8c1665c
+type: Request
+parentId: fld_6563eb69220f4b06a04e9ce63bdb2193
+modified: 1607168922991
+created: 1607166372380
+url: "{{ base_url }}/api/insurance-motion-annulment"
+name: Движение полиса - аннулирование
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "insuranceFormUuid": "78bz1f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "refundAmount": "20000",
+      "insurancePremium": "100000"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168773522
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

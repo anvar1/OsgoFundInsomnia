@@ -1,0 +1,24 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1550b539d2a
+type: Request
+parentId: fld_22512e7cd9884892b9430acf7b2297a2
+modified: 1607169222269
+created: 1607166371444
+url: "{{ base_url }}/api/references/courts"
+name: Get list of all courts (Справочник №5)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1607166371570.5938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

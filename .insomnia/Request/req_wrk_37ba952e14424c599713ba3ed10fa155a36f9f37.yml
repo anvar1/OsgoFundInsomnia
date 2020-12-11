@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155a36f9f37
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607170470438
+created: 1607166371562
+url: "{{ base_url }}/api/provider/driver-summary-no-address"
+name: Get personal and driver licence information by driver's PINFL without address
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "30504720220036",
+      "passportSeries": "AA",
+      "passportNumber": "2048401"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_0507eeddfaf34906a74e9f55f25f5542
+  - name: Content-Type
+    value: application/json
+    id: pair_ec2ffde47bf542b199852d2d189c95b6
+authentication: {}
+metaSortKey: -1607166371718.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

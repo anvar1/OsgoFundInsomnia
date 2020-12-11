@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155749a85c8
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607169570790
+created: 1607166371681
+url: "{{ base_url }}/api/provider/pinfl"
+name: Get information about person by his PINFL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "30504720220036",
+      "passportSeries": "AA",
+      "passportNumber": "2048401"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_5c640b1393f64e43845e56773180b12a
+  - name: Content-Type
+    value: application/json
+    id: pair_1b2d552a0c624f7e8650559855386a01
+authentication: {}
+metaSortKey: -1607166371747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

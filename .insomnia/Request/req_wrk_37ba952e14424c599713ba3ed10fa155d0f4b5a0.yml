@@ -1,0 +1,63 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155d0f4b5a0
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168970335
+created: 1607166371978
+url: "{{ base_url }}/api/claim/other-damage/update"
+name: Обновить запись о вреде иному имуществу
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "b9622ee3-72f3-4674-8ecd-4199e7e242ac",
+      "owner": {
+        "person": {
+          "passportData": {
+            "pinfl": "12345678901234",
+            "seria": "AA",
+            "number": "1234567",
+            "issueDate": "2012-01-01",
+            "issuedBy": "УВД Яккасарайского р-на"
+          },
+          "fullName": {
+            "firstname": "John",
+            "lastname": "Doe",
+            "middlename": "string"
+          },
+          "gender": "m",
+          "birthDate": "1990-01-01"
+        },
+        "organization": {
+          "inn": "123456789",
+          "name": "Название организации",
+          "regCertificate": "abs1234567",
+          "regCertificateIssueDate": "2012-01-01",
+          "representativeName": "Paul Murphy"
+        },
+        "address": "Адрес",
+        "phoneNumber": "10001010",
+        "regionId": "1",
+        "districtId": "1"
+      },
+      "claimedAmount": 0,
+      "propertyInformation": "Информация о поврежденном имуществе",
+      "damageDoc": null
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724076.9238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155aae75b3a
+type: Request
+parentId: fld_c8f931217cd14e46a8542cc41318d321
+modified: 1607169151097
+created: 1607166371731
+url: "{{ base_url }}/api/incorrect-data/fields-by-form"
+name: Некорректные поля формы по uuid
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: uuid
+    disabled: false
+    value: string
+    id: pair_1ecb0ac4d698410bb6ddea3c3e3e60c4
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_1ab1781395074649a22bae909c8c0cbd
+authentication: {}
+metaSortKey: -1607166371731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155cb115d0a
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169071937
+created: 1607166371894
+url: "{{ base_url }}/api/claim/life-payment/create"
+name: Ходатайство. Добавление выплаты по жизни.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "committeeDecisionUuid": "78bz3f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "amount": "1000.50",
+      "inheritance": {
+        "documentNumber": "5343234",
+        "documentIssueDate": "2018-10-05"
+      },
+      "paymentDetails": {
+        "recipient": "Иванов Иван Иванович",
+        "orderNumber": "34242",
+        "paymentDate": "2018-10-10"
+      }
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724074.9219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

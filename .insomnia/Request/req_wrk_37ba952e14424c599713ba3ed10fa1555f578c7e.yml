@@ -1,0 +1,44 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1555f578c7e
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168915099
+created: 1607166372144
+url: "{{ base_url }}/api/claim/life-damage/create"
+name: Добавление информации о вреде жизни
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "claimUuid": "69D509EE-5BCC-4BDA-8EAB-19D39F1E6CE2",
+      "deathCertificate": {
+        "fullName": {
+          "firstname": "John",
+          "lastname": "Doe",
+          "middlename": "string"
+        },
+        "regionId": "1",
+        "districtId": "1",
+        "details": "Информация о свидетельстве смерти"
+      },
+      "claimedAmount": "999999.99"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_3ec01634647e48b69e7b001a6a30bcc6
+  - name: Content-Type
+    value: application/json
+    id: pair_89e324eb26964855a633499c9086a56a
+authentication: {}
+metaSortKey: -1607168724073.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

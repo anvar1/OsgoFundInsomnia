@@ -1,0 +1,56 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1552bead1f0
+type: Request
+parentId: fld_6563eb69220f4b06a04e9ce63bdb2193
+modified: 1607168897970
+created: 1607166372396
+url: "{{ base_url }}/api/insurance-motion-reissue"
+name: Движение полиса - переоформление
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "insuranceFormUuid": "78bz1f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "policySeria": "SD",
+      "policyNumber": "897349587",
+      "addedInsurancePremium": "20000",
+      "insurancePremium": "100000",
+      "drivers": [
+        {
+          "passportData": {
+            "pinfl": "12345678901234",
+            "seria": "AA",
+            "number": "87349827",
+            "issueDate": "2018-01-03",
+            "issuedBy": "УВД Яккасарайского р-на"
+          },
+          "fullName": {
+            "firstname": "Иван",
+            "lastname": "Иванов",
+            "middlename": "Иванович"
+          },
+          "licenseNumber": "834242",
+          "licenseSeria": "KD",
+          "licenseIssueDate": "2017-04-08",
+          "birthDate": "2000-04-08",
+          "relative": 0
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168773534.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

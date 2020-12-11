@@ -1,0 +1,56 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15560565563
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607168947519
+created: 1607166372091
+url: "{{ base_url }}/api/claim/health-damage/create"
+name: Добавление записи информации о вреде здоровью
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "claimUuid": "69D509EE-5BCC-4BDA-8EAB-19D39F1E6CE2",
+      "injured": {
+        "passportData": {
+          "pinfl": "12345678901234",
+          "seria": "AA",
+          "number": "1234567",
+          "issueDate": "2012-01-01",
+          "issuedBy": "УВД Яккасарайского р-на"
+        },
+        "fullName": {
+          "firstname": "John",
+          "lastname": "Doe",
+          "middlename": "string"
+        },
+        "gender": "m",
+        "phoneNumber": "10001010",
+        "regionId": "1",
+        "districtId": "1"
+      },
+      "medicalCertificate": {
+        "medicalInstitutionId": "1",
+        "name": "Название справки",
+        "number": "123456",
+        "issueDate": "2019-01-01"
+      },
+      "claimedAmount": "999999.99"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724081.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

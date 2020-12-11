@@ -1,0 +1,33 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa15537845090
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607169457867
+created: 1607166371531
+url: "{{ base_url }}/api/provider/gtk-vehicle"
+name: Get info about foreign vehicle by vehicle number
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "govNumber": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_b032694872364a14a129095b0c748514
+  - name: Content-Type
+    value: application/json
+    id: pair_68eea4f2db554478b0b499d55e68e67c
+authentication: {}
+metaSortKey: -1607166371703.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

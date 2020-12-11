@@ -1,0 +1,37 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1552055d0b1
+type: Request
+parentId: fld_c8f931217cd14e46a8542cc41318d321
+modified: 1607169155671
+created: 1607166371713
+url: "{{ base_url }}/api/incorrect-data/incorrect-forms"
+name: Некорректные полисы
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: _page
+    disabled: true
+    value: string
+    id: pair_a756b9eb13d1493ab4ae9143ccc1edc0
+  - name: dateStart
+    disabled: true
+    value: string
+    id: pair_3f14f1163f7e49dea796f39931026306
+  - name: dateEnd
+    disabled: true
+    value: string
+    id: pair_63ac131637ea415ea8f59e81cebd4c60
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_f473ce29a5cc43ab8d9a1a8b769260b8
+authentication: {}
+metaSortKey: -1607166371781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

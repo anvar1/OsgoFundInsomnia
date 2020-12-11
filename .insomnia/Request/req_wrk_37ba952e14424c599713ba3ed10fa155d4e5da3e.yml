@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155d4e5da3e
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607170468461
+created: 1607166371579
+url: "{{ base_url }}/api/provider/driver-summary"
+name: Get personal and driver licence information by driver's PINFL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "30504720220036",
+      "passportSeries": "AA",
+      "passportNumber": "2048401"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_430a04f19d254e34801b90936cd1d56c
+  - name: Content-Type
+    value: application/json
+    id: pair_beb5b557541548208c5f95a7b080875d
+authentication: {}
+metaSortKey: -1607166371722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155598c4bcb
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169212802
+created: 1607166371792
+url: "{{ base_url }}/api/claim/other-property-payment/create"
+name: Ходатайство. Добавление выплаты по имуществу.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "committeeDecisionUuid": "78bz3f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "paymentAmount": "1000.50",
+      "paymentDate": "2019-05-05",
+      "paymentOrderNumber": "asd123132",
+      "protocolNumber": "ds878723",
+      "protocolDate": "2018-06-06",
+      "comment": "Какой-то комментарий"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724073.8965
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa1552059a7a9
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1607170482903
+created: 1607166371546
+url: "{{ base_url }}/api/provider/is-pensioner"
+name: Check if person is pensioner by PINFL and passport data
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinfl": "30504720220036",
+      "passportSeries": "AA",
+      "passportNumber": "2048401"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_b71641cc0a75495d99f993a7c8194ab6
+  - name: Content-Type
+    value: application/json
+    id: pair_56ea7cc5565d4d9c9be57c37ca664828
+authentication: {}
+metaSortKey: -1607166371647
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

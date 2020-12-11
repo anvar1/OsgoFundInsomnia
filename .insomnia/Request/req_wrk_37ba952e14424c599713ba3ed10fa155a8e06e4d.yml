@@ -1,0 +1,31 @@
+_id: req_wrk_37ba952e14424c599713ba3ed10fa155a8e06e4d
+type: Request
+parentId: fld_cbc16996bf30474a9750d60f0d114456
+modified: 1607169215691
+created: 1607166371757
+url: "{{ base_url }}/api/claim/other-property-payment/delete"
+name: Ходатайство. Удаление выплаты по имуществу.
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "78bz3f03-dd9f-4439-b5e1-3dfda33bc5f8"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1607168724073.7744
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
