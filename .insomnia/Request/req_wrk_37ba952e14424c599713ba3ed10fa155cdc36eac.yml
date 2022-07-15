@@ -1,7 +1,7 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa155cdc36eac
 type: Request
 parentId: fld_a35b1ebb7ecf4252a4fe8ea6b852273b
-modified: 1607168853985
+modified: 1649910848880
 created: 1607166372497
 url: "{{ base_url }}/api/insurance-form-show-by-seria-number"
 name: Получение информации о полисе по серии и номеру полиса
@@ -11,11 +11,11 @@ body: {}
 parameters:
   - name: seria
     disabled: false
-    value: string
+    value: ETSL
     id: pair_7194c634360d4eec83f2ce4e46aad256
   - name: number
     disabled: false
-    value: string
+    value: "0000001"
     id: pair_5c355fb11fbe4ad090f9b67969f0b8f8
 headers:
   - name: Authorization

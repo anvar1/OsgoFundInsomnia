@@ -1,7 +1,7 @@
 _id: req_ad584abd9d80464a9fe71a3038701839
 type: Request
 parentId: fld_338f8ae15d9c4c53be47efc677a59d59
-modified: 1607166758890
+modified: 1628422707889
 created: 1607166633848
 url: "{{ base_url
   }}/oauth/v2/token?username=temiryol&password=aIj4T1lD0Khvn0Uv411TT5B055132Lbs\
@@ -10,7 +10,11 @@ name: Get Token
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_cea7e3a5de614de7b87eb7eb6d43c0d0
 headers: []
 authentication:
   type: basic

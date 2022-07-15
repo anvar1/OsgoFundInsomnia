@@ -1,7 +1,7 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa1559cc35c45
 type: Request
 parentId: fld_873b30817f194827afe3d41147ec4273
-modified: 1607170518436
+modified: 1613824998899
 created: 1607166371630
 url: "{{ base_url }}/api/provider/driver-license"
 name: Get driver licence information by driver's PINFL
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      "pinfl": "string",
-      "passportSeries": "string",
-      "passportNumber": "string"
+      "pinfl": "30504720220036",
+      "passportSeries": "AA",
+      "passportNumber": "2048401"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa1550c65e852
 type: Request
 parentId: fld_873b30817f194827afe3d41147ec4273
-modified: 1607169489032
+modified: 1614676221601
 created: 1607166371697
 url: "{{ base_url }}/api/provider/inn"
 name: Get information about organization by INN
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-      "inn": "305053634"
+      "inn": "305655099"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa1556db3ad39
 type: Request
 parentId: fld_873b30817f194827afe3d41147ec4273
-modified: 1607169759830
+modified: 1646839690242
 created: 1607166371613
 url: "{{ base_url }}/api/provider/vehicle"
 name: Get vehicle information by TechPassport Data and GovNumber
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      "techPassportSeria": "AAC",
-      "techPassportNumber": "6163326",
-      "govNumber": "01097VDA"
+      "techPassportSeria": "AAF",
+      "techPassportNumber": "2834598",
+      "govNumber": "01B063OB"
     }
 parameters: []
 headers:

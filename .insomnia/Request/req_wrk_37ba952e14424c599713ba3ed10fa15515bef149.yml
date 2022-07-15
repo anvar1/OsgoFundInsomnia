@@ -1,7 +1,7 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa15515bef149
 type: Request
 parentId: fld_a35b1ebb7ecf4252a4fe8ea6b852273b
-modified: 1607168866253
+modified: 1649755040526
 created: 1607166372480
 url: "{{ base_url }}/api/insurance-form-list"
 name: Список полисов, с возможность фильтрации по диапазону дат
@@ -10,18 +10,22 @@ method: GET
 body: {}
 parameters:
   - name: _page
-    disabled: true
-    value: string
+    disabled: false
+    value: "1"
+    id: pair_5b2cf49aaae945a88b5b1b961f2552d4
   - name: dateStart
-    disabled: true
-    value: string
+    disabled: false
+    value: 2022-01-01
+    id: pair_96c237ab19274bd6ac7733e31da09086
   - name: dateEnd
-    disabled: true
-    value: string
+    disabled: false
+    value: 2022-04-01
+    id: pair_7acb81b3e9fa427ea34a166e477c9c66
 headers:
   - name: Authorization
     disabled: false
     value: "{{ authorization }}"
+    id: pair_e643c1c9214540d9834be024a63ade8a
 authentication: {}
 metaSortKey: -1607168819908.75
 isPrivate: false

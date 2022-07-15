@@ -1,9 +1,11 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa155aae75b3a
 type: Request
 parentId: fld_c8f931217cd14e46a8542cc41318d321
-modified: 1607169151097
+modified: 1617543275853
 created: 1607166371731
-url: "{{ base_url }}/api/incorrect-data/fields-by-form"
+url: "{{ base_url
+  }}/api/incorrect-data/fields-by-form?uuid=e9065a40-0903-4606-adda-8d2cba43784\
+  9"
 name: Некорректные поля формы по uuid
 description: ""
 method: GET
@@ -11,7 +13,7 @@ body: {}
 parameters:
   - name: uuid
     disabled: false
-    value: string
+    value: 13f3a775-33ca-4100-b96d-88d38b5883f9
     id: pair_1ecb0ac4d698410bb6ddea3c3e3e60c4
 headers:
   - name: Authorization

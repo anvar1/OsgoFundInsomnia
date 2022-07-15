@@ -1,7 +1,7 @@
 _id: req_wrk_37ba952e14424c599713ba3ed10fa155793e7a79
 type: Request
 parentId: fld_873b30817f194827afe3d41147ec4273
-modified: 1607169631482
+modified: 1613824743948
 created: 1607166371663
 url: "{{ base_url }}/api/provider/pinfl-non-citizen"
 name: Get information about non citizen person by his PINFL
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      "pinfl": "string",
-      "passportSeries": "string",
-      "passportNumber": "string"
+    	"passportNumber": "2048401",
+    	"pinfl": "30504720220036",
+    	"passportSeries": "AA"
     }
 parameters: []
 headers:
