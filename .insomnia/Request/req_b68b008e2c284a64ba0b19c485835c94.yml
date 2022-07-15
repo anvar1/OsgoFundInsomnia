@@ -1,0 +1,36 @@
+_id: req_b68b008e2c284a64ba0b19c485835c94
+type: Request
+parentId: wrk_37ba952e14424c599713ba3ed10fa155
+modified: 1649305138907
+created: 1649305117736
+url: "{{ base_url }}/api/epolicy/motion-annulment"
+name: E-Policy Annulment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "insuranceFormUuid": "78bz1f03-dd9f-4439-b5e1-3dfda33bc5f8",
+      "refundAmount": "20000",
+      "insurancePremium": "100000",
+      "terminationDate": "2020-12-30"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{ authorization }}"
+    description: ""
+    id: pair_3c05e255b2f24058ae5f3c6f913d0d36
+  - name: Content-Type
+    value: application/json
+    id: pair_7029c98f53234c7e93494eb952e5e45f
+authentication: {}
+metaSortKey: -1607167099625.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

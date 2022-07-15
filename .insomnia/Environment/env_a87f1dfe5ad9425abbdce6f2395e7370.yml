@@ -1,0 +1,22 @@
+_id: env_a87f1dfe5ad9425abbdce6f2395e7370
+type: Environment
+parentId: env_740f97b456e6e34061a9de8805f2352c41effcc6
+modified: 1615965838047
+created: 1615965781851
+name: Demo
+data:
+  scheme: http
+  base_path: ""
+  host: 185.8.212.244
+  authorization: Bearer {% response 'body',
+    'req_ad584abd9d80464a9fe71a3038701839',
+    'b64::JC5yZXN1bHQuYWNjZXNzX3Rva2Vu::46b', 'always', 60 %}
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - authorization
+color: null
+isPrivate: false
+metaSortKey: 1615965781851

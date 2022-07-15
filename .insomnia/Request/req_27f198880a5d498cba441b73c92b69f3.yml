@@ -1,0 +1,39 @@
+_id: req_27f198880a5d498cba441b73c92b69f3
+type: Request
+parentId: wrk_37ba952e14424c599713ba3ed10fa155
+modified: 1637900640455
+created: 1637867458808
+url: "{{ base_url }}/api/insurance-form-show"
+name: Получение информации о полисе
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: uuid
+    disabled: false
+    value: 514ADEF6-4BBC-4252-AF09-13A6D0AE2A88
+    id: pair_c06ef55f98e3426dba2b4b94393bc42a
+  - name: uuid
+    value: D9E3B567-A2B7-4DBC-AC06-3F0459BFF1FF
+    description: ""
+    id: pair_898512d249e34c6cb9f46b387e66ccf7
+    disabled: true
+  - name: uuid
+    value: 4f5e0b84-0926-4228-8879-f50cfbcec702
+    description: ""
+    id: pair_0c3b14f9a7b84e8499121b531a120c55
+    disabled: true
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_3247c208ce454a92b0a120fb8c451d58
+authentication: {}
+metaSortKey: -1607168714870.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_773378b4d90446f4b1a98269fd8d1699
+type: Request
+parentId: fld_873b30817f194827afe3d41147ec4273
+modified: 1639738554178
+created: 1631022830810
+url: "{{ base_url }}/api/provider/passport-birth-date"
+name: Get information about person by birthdate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "birthDate": "1972-02-01",
+      "passportSeries": "AA",
+      "passportNumber": "0253280",
+    	"isConsent":"Y"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_f55a9203dfd843c7b563c8f070cfaebf
+  - name: Content-Type
+    value: application/json
+    id: pair_b84804e567984725b23c8ec1c1c97fea
+authentication: {}
+metaSortKey: -1607166371732.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

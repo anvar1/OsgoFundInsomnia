@@ -1,0 +1,103 @@
+_id: req_8a33c9020cc847e19b3f5b399fcf89d3
+type: Request
+parentId: wrk_37ba952e14424c599713ba3ed10fa155
+modified: 1619069038133
+created: 1614927363685
+url: "{{ base_url }}/api/epolicy/create"
+name: create e-policy 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"applicant": {
+    		"person": {
+    			"passportData": {
+    				"pinfl": "12345678901234",
+    				"seria": "AA",
+    				"number": "1234567",
+    				"issuedBy": "Алмазар",
+    				"issueDate": "2000-01-01"
+    			},
+    			"fullName": {
+    				"firstname": "Петр",
+    				"lastname": "Иванов",
+    				"middlename": "Сергеевич"
+    			},
+    			"phoneNumber": "998909980700",
+    			"gender": "m",
+    			"birthDate": "2021-01-03",
+    			"regionId": "10",
+    			"districtId": "1009"
+    		},
+    		"address": "город Ташкент, Mirobod tumani"
+    	},
+    	"owner": {
+    		"person": {
+    			"passportData": {
+    				"pinfl": "12345678901234",
+    				"seria": "AA",
+    				"number": "1234567",
+    				"issuedBy": "Алмазар",
+    				"issueDate": "2000-01-01"
+    			},
+    			"fullName": {
+    				"firstname": "Петр",
+    				"lastname": "Иванов",
+    				"middlename": "Сергеевич"
+    			}
+    		},
+    		"applicantIsOwner": false
+    	},
+    	"details": {
+    		"issueDate": "2021-04-22",
+    		"startDate": "2021-04-22",
+    		"endDate": "2022-04-03",
+    		"driverNumberRestriction": false,
+    		"insuredActivityType": ""
+    	},
+    	"cost": {
+    		"discountId": "1",
+    		"discountSum": "0E-7",
+    		"insurancePremium": "56000.0000000",
+    		"sumInsured": "40000000",
+    		"insurancePremiumPaidToInsurer": "56000.00000",
+    		"contractTermConclusionId": "1",
+    		"useTerritoryId": "1",
+    		"commission": "0"
+    	},
+    	"vehicle": {
+    		"techPassport": {
+    			"number": "1231321",
+    			"seria": "121",
+    			"issueDate": "2000-01-01"
+    		},
+    		"modelCustomName": "NEXIA R3",
+    		"engineNumber": "132112",
+    		"typeId": "1",
+    		"issueYear": "2011",
+    		"govNumber": "123132",
+    		"bodyNumber": "313123",
+    		"regionId": 10
+    	},
+    	"drivers": []
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{ authorization }}"
+    description: ""
+    id: pair_3c05e255b2f24058ae5f3c6f913d0d36
+  - name: Content-Type
+    value: application/json
+    id: pair_7029c98f53234c7e93494eb952e5e45f
+authentication: {}
+metaSortKey: -1607168176447.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

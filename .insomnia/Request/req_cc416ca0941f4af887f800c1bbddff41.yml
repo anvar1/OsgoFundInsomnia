@@ -1,0 +1,37 @@
+_id: req_cc416ca0941f4af887f800c1bbddff41
+type: Request
+parentId: wrk_37ba952e14424c599713ba3ed10fa155
+modified: 1649855691557
+created: 1637867354820
+url: "{{ base_url }}/api/insurance-form-list"
+name: Получение информации о полисах list
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: dateStart
+    value: 2021-11-01
+    description: ""
+    id: pair_79367d2a71364b06b7895a32c0e6f676
+  - name: dateEnd
+    value: 2022-04-30
+    description: ""
+    id: pair_98f647fcbf4046639d6072ed530c2e83
+  - name: _page
+    value: "2"
+    description: ""
+    id: pair_ebace34bac0e49c8bb0958f42eab91a1
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+    id: pair_3247c208ce454a92b0a120fb8c451d58
+authentication: {}
+metaSortKey: -1607168714883
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

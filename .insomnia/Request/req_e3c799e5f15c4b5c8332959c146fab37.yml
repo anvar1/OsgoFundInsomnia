@@ -1,0 +1,128 @@
+_id: req_e3c799e5f15c4b5c8332959c146fab37
+type: Request
+parentId: wrk_37ba952e14424c599713ba3ed10fa155
+modified: 1617537499930
+created: 1614769743721
+url: "{{ base_url }}/api/epolicy/create"
+name: create e-policy
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"applicant": {
+    		"person": {
+    			"passportData": {
+    				"pinfl": "12345678901234",
+    				"seria": "AA",
+    				"number": "1234567",
+    				"issuedBy": "УВД Яккасарайского района",
+    				"issueDate": "2015-10-30"
+    			},
+    			"fullName": {
+    				"firstname": "Иван",
+    				"lastname": "Иванов",
+    				"middlename": "Иванович"
+    			},
+    			"phoneNumber": "998901234578",
+    			"gender": "m",
+    			"birthDate": "1990-10-30",
+    			"regionId": 10,
+    			"districtId": 1005
+    		},
+    		"organization": null,
+    		"address": "ул. такая-то, дом такой-то",
+    		"email": "example@example.com"
+    	},
+    	"owner": {
+    		"person": {
+    			"passportData": {
+    				"pinfl": "12345678901234",
+    				"seria": "AA",
+    				"number": "1234567",
+    				"issuedBy": "УВД Яккасарайского района",
+    				"issueDate": "2015-10-30"
+    			},
+    			"fullName": {
+    				"firstname": "Иван",
+    				"lastname": "Иванов",
+    				"middlename": "Иванович"
+    			}
+    		},
+    		"organization": null,
+    		"applicantIsOwner": false
+    	},
+    	"details": {
+    		"issueDate": "2021-04-04",
+    		"startDate": "2021-04-04",
+    		"endDate": "2022-02-27",
+    		"driverNumberRestriction": true,
+    		"specialNote": "Перевыпуск",
+    		"insuredActivityType": "Вид деятельности"
+    	},
+    	"cost": {
+    		"discountId": "1",
+    		"discountSum": "28000",
+    		"insurancePremium": "56000",
+    		"sumInsured": "40000000",
+    		"contractTermConclusionId": "1",
+    		"useTerritoryId": "1",
+    		"commission": "10000",
+    		"insurancePremiumPaidToInsurer": "28000",
+    		"seasonalInsuranceId": "1"
+    	},
+    	"vehicle": {
+    		"techPassport": {
+    			"number": "01223456",
+    			"seria": "AAC",
+    			"issueDate": "2015-10-30"
+    		},
+    		"modelCustomName": "Nexia 3",
+    		"engineNumber": "df32rfafh98sa",
+    		"typeId": "1",
+    		"issueYear": "2015",
+    		"govNumber": "01K384SO",
+    		"bodyNumber": "jk543kj453k4",
+    		"regionId": 10
+    	},
+    	"drivers": [
+    		{
+    			"passportData": {
+    				"pinfl": "12345678901234",
+    				"seria": "AA",
+    				"number": "1234567",
+    				"issuedBy": "УВД Яккасарайского района",
+    				"issueDate": "2015-10-30"
+    			},
+    			"fullName": {
+    				"firstname": "Иван",
+    				"lastname": "Иванов",
+    				"middlename": "Иванович"
+    			},
+    			"licenseNumber": "1546546",
+    			"licenseSeria": "AA",
+    			"relative": 0,
+    			"birthDate": "1989-05-30",
+    			"licenseIssueDate": "2015-05-30"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{ authorization }}"
+    description: ""
+    id: pair_3c05e255b2f24058ae5f3c6f913d0d36
+  - name: Content-Type
+    value: application/json
+    id: pair_7029c98f53234c7e93494eb952e5e45f
+authentication: {}
+metaSortKey: -1607168714858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

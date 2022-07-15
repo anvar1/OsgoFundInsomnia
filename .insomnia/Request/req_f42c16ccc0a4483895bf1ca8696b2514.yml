@@ -1,0 +1,79 @@
+_id: req_f42c16ccc0a4483895bf1ca8696b2514
+type: Request
+parentId: wrk_37ba952e14424c599713ba3ed10fa155
+modified: 1656601663205
+created: 1649868111205
+url: ""
+name: test
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"agreement": {
+    		"org_inn": "123456789",
+    		"agr_num": "1/6-2136",
+    		"agr_dt": "2020-11-10"
+    	},
+    	"policy": [
+    		{
+    			"pl_num": "Pl_num1",
+    			"pl_dt": "2020-11-10",
+    			"payment": [
+    				{
+    					"nunber_payment": "1",
+    					"date_payment": "2020-12-30",
+    					"bonus_amount": 100.01,
+    					"amount_paid": 200.02,
+    					"currency": "860",
+    					"agency_commission": 20.2
+    				},
+    				{
+    					"nunber_payment": "2",
+    					"date_payment": "2020-12-30",
+    					"bonus_amount": 100.01,
+    					"amount_paid": 200.02,
+    					"currency": "860",
+    					"agency_commission": 20.2
+    				}
+    			]
+    		},
+    		{
+    			"pl_num": "Pl_num2",
+    			"pl_dt": "2020-11-10",
+    			"payment": [
+    				{
+    					"nunber_payment": "3",
+    					"date_payment": "2020-12-30",
+    					"bonus_amount": 100.01,
+    					"amount_paid": 200.02,
+    					"currency": "860",
+    					"agency_commission": 20.2
+    				},
+    				{
+    					"nunber_payment": "4",
+    					"date_payment": "2020-12-30",
+    					"bonus_amount": 100.01,
+    					"amount_paid": 200.02,
+    					"currency": "860",
+    					"agency_commission": 20.2
+    				}
+    			]
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7737bc4c610f4e4680c949efcc076ba8
+authentication: {}
+metaSortKey: -1649868111205
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
